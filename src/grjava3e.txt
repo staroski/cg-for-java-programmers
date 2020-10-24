@@ -1,0 +1,186 @@
+The file grjava3e.zip contains the source code listed in:
+
+    Ammeraal, L. and K. Zhang (2017). Computer Graphics for Java Programmers, 3nd Edition, Springer.
+
+Here is the table of contents of the book, followed by a list of the files extracted from grjava.zip:
+===========================================================
+
+Preface
+
+Chapter 1 - Elementary Concepts
+1.1 Pixels and Device Coordinates
+1.2 Logical Coordinates
+1.3 Anisotropic and Isotropic Mapping Modes
+1.4 Defining a Polygon Through Mouse Interaction
+Exercises
+
+Chapter 2 - Applied Geometry
+2.1 Vectors
+2.2 Inner Product and Vector Product
+2.3 The Orientation of Three Points
+2.4 Polygons and Their Areas 
+2.5 Point-in-Polygon Test
+2.6 Triangula¬tion of Poly¬gons
+2.7 Point-on-Line Test
+2.8 Projection of a Point on a Line
+2.9 Distance Between a Point and a Line
+Exercises	
+
+Chapter 3 - Geometrical Transformations
+3.1 Matrix Multiplication
+3.2 Linear Transformations
+3.3 Translations 
+3.4 Homogeneous Coordinates
+3.5 Inverse Transformations and Matrix Inversion
+3.6 Rotation About an Arbitrary Point
+3.7 Changing the Coordinate System
+3.8 Rotations About 3D Coordinate Axes
+3.9 Rotation About an Arbitrary Axis
+Exercises
+
+Chapter 4 - Classic 2D Algorithms 
+4.1 Bresenham Line Drawing
+4.2 Doubling the Line-Drawing Speed
+4.3 Circle Drawing
+4.4 Cohen–Sutherland Line Clipping
+4.5 Sutherland–Hodgman Polygon Clipping
+4.6 Bézier Curves
+4.7 B-Spline Curve Fitting
+Exercises
+
+Chapter 5 - Perspective and 3D Data Structure	
+5.1 Introduction
+5.2 Viewing Transformation
+5.3 Perspective Transformation
+5.4 A Cube in Perspective
+5.5 Specification and Representation of 3D Objects 
+5.6 Some Useful Classes
+5.7 A Program for Wireframe Models
+5.8 Automatic Generation of Object Specification
+Exercises	
+
+Chapter 6 - Hidden-Line and Hidden-Face Removal
+6.1 Hidden-Line Algorithm
+6.2 Backface Culling
+6.3 Painter’s Algorithm
+6.4 Z-Buffer Algorithm
+Exercises
+
+Chapter 7 - Color, Texture, and Shading
+7.1 Color Theories 
+7.2 Additive and Subtractive Colors
+7.3 RGB Representation
+7.4 HSV and HSL Color Models
+7.5 Transparency
+7.6 Texture
+7.7 Surface Shading
+Exercises
+
+Chapter 8 - Fractals	
+8.1 Koch Curves
+8.2 String Grammars
+8.3 Mandelbrot Set
+8.4 Julia Set
+Exercises	
+
+Appendix A - Interpolation of 1/z
+
+Appendix B - Class Obj3D
+
+Appendix C - Hidden-Line Tests and Implementation
+C.1 Tests for Line Visibility
+C.2 HP-GL Output and Class HLines
+C.3 Class CvHLines
+
+Appendix D - Several 3D Objects	
+D.1 Platonic Solids
+D.2 Sphere Representations
+D.3 A Torus
+D.4 Beams in a Spiral
+D.5 Functions of Two Variables	
+
+Appendix E - Hints and Solutions to Exercises
+
+Bibliograpy
+Index
+
+===========================================================
+
+After expanding the file grjava2e.zip, you will obtain a set of .java files, which are
+not all complete programs. You can compile and run the following programs; they are all
+applications, not applets, and they may require other files, also present in this set.
+Here is a list of these program files, each with a reference to the corresponding section in the book.
+For example, program Bspline.java, listed below, is discussed in Section 4.7. To see this program 
+in action, use a command window and enter the following two commands:
+
+javac Bspline.java
+java Bspline
+
+Besides program files, there is also the input file letterA.dat, so you can immediately test the 
+four 3D programs Wireframe.java, HLines.java, Painter.java, and ZBuf.java.
+
+Anim.java App. E, Ex. 5.4
+Anisotr.java 1.3
+Arrow.java 3.2
+ArrowPt.java 3.6
+Backface.java 6.2
+Beams.java App. D.4
+Bezier.java 4.6
+BookView.java App. E, Ex. 5.6
+Bresenham.java App. E, Ex. 4.4
+Bspline.java 4.7
+Canvas3D.java 5.6
+ClipLine.java 4.4
+ClipPoly.java 4.5
+ColorCircles.java 7.3
+CubePers.java 5.4
+CubRot2.java App. E, Ex. 5.5
+CvDefPoly.java 1.4
+CvHLinesDashed.java App. E, Ex. 6.4
+CvHLines.java App. C.2
+CvPainter.java 6.3
+CvWireframe.java 5.7
+CvZBuf.java 6.4
+Cylinder.java 5.8
+DefPoly.java 1.4
+Fr3DHDashed.java App. E, Ex. 6.4
+Fr3D.java 5.6
+FractalGrammars.java 8.2
+Func.java App. D.5
+HLinesDashed.java App. E, Ex. 6.4
+HLines.java App. C.2
+HPGL.java App C.2
+IcoDode.java App. D.1
+Input.java 5.6
+Isotrop.java 1.3
+Koch.java 8.1
+letterA.dat 5.5
+MandelbrotZoom.java 8.3
+ManySq.java App. E, Ex. 1.2
+Obj3D.java 5.6, App. B
+Painter.java 6.3
+Point2D.java 1.4
+Point3D.java 3.9
+Polygon2D.java 2.6
+Polygon3D.java 5.6
+PolyTria.java 2.6
+RedRect.java 1.1
+Rota3D.java 3.8
+Rota3DTest.java 3.8
+Rota3DTetra.java App. D.1
+SphTria.java App. D.2
+Sum.java 5.6
+Texture.java 7.6
+Tools2D.java 2.3
+Torus.java App. D.3
+Transparency.java 7.5
+Tria.java 5.6
+Triangles.java 1.2
+Wireframe.java 5.7
+ZBuf.java 6.4
+
+
+
+
+
+
